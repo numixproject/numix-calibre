@@ -10,3 +10,6 @@ git clone https://github.com/leoheck/numix-calibre.git
 cd numix-calibre
 sudo install-numix-icons.sh
 ```
+
+Current theme
+![Alt text](/misc/calibre.png?raw=true "Calibre")
