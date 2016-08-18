@@ -11,5 +11,7 @@ cd numix-calibre
 sudo install-numix-icons.sh
 ```
 
-Current theme
+Using Calibre from launchpad (version 2.55) to have qt theme maching numix-gtk theme.
+
+Current Calibre
 ![Alt text](/misc/calibre.png?raw=true "Calibre")
