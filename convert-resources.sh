@@ -39,17 +39,26 @@ IMAGES="\
 	view"
 
 
-
 size=32x32
 # size=64x64
 # size=128x128
-
 echo "Images size=$size"
+
+DARK_COLOR='#646464'
+LIGHT_COLOR='#bebebe'
 
 for i in $IMAGES;
 do
+
+	# Change colort...
+	cp $SRC/$i.svg $SRC/new_$i.svg
+	sed -i "s/$LIGHT_COLOR/$DARK_COLOR/g" $SRC/new_$i.svg
+
 	echo "Converting $i"
-	convert -background none -density 500 -resize $size $SRC/$i.svg $OUT/$i.png
+	convert -strip -background none -density 2000 -size $size $SRC/new_$i.svg $OUT/$i.png
+
+	rm -rf $SRC/new_$i.svg
+
 done
 
 echo "Execute: sudo ./install-numix-icons.sh "
