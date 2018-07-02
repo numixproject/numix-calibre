@@ -1,0 +1,22 @@
+Name,               Size,   Source
+add_book,           32,     actions/list-add
+arrow-down,         22,     actions/arrow-down
+arrow-up,           22,     actions/arrow-up
+auto_author_sort,   32,     actions/view-sort-ascending
+auto-reload,        32,     actions/view-refresh
+back,               32,     actions/go-previous
+beautify,           32,     categories/applications-drawing
+bookmarks,          32,     actions/bookmark-add
+catalog,            32,     categories/applications-libraries
+clear-left,         16,     actions/edit-clear
+config,             32,     categories/gnome-settings
+console,            32,     categories/applications-electronics
+contents,           32,     actions/gtk-index
+debug,              32,     categories/preferences-desktop-peripherals-directory
+dialogue_error,     32,     status/dialog-error
+dialog_information, 32,     status/dialog-information
+dialog_question,    32,     status/dialog-question
+dialog_warning,     32,     status/dialog-warning
+
+
+edit-clear,         actions/edit-clear,                     32

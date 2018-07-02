@@ -1,21 +1,11 @@
-# numix-calibre
+# Numix Calibre
 
-Effort to make numix-icons for Calibre.
+Effort to make an official Numix theme for Calibre to replace [the version that currently ships](https://www.deviantart.com/numixcalibre/art/Numix-theme-for-calibre-1-01-502183176) which violates the GPL. Thanks to [@leoheck](https://github.com/leoheck) for putting in the ground work and the [Papirus team](https://github.com/PapirusDevelopmentTeam) whose [theme](https://github.com/PapirusDevelopmentTeam/papirus-calibre-theme) served as a development guide.
 
-Just starting a from the ``calibre_numix_1.01`` project reported in [deviantart](http://numixcalibre.deviantart.com/art/Numix-theme-for-calibre-1-01-502183176) and in [gnome-look](https://www.gnome-look.org/content/show.php?content=168291)
 
-TODO: 
-- [ ] Create custom numix (colored) icons
-- [ ] Create a patch to apply system theme
+### Installing
 
-Installing:
-```bash
-git clone https://github.com/leoheck/numix-calibre.git
-cd numix-calibre
-sudo install-numix-icons.sh
-```
+At present the only way to install this version of the theme is to build it, though we're working on getting it into the official themes list.
 
-Using Calibre from launchpad (version 2.55) to have qt theme maching numix-gtk theme.
-
-Current Calibre
-![Alt text](/misc/calibre.png?raw=true "Calibre")
+1. Install the [Numix](https://github.com/numixproject/numix-icon-theme) base theme (doesn't matter how)
+2. 
